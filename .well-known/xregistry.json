@@ -14,6 +14,6 @@
     "metaModel": "",
 
     "groups": {
-        "schemaGroups": "/groups/schemaGroups/"
+        "schemaGroups": "/groups/schemaGroups/index.json"
     }
 }

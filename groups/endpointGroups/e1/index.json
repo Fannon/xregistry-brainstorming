@@ -1,13 +1,18 @@
 {
     "id": "e1",
-      "name": "end1",
-      "epoch": 1,
-      "self": "http://ubuntu:8080/reg-Endpoints/endpoints/e1",
-      "labels": {
-        "stage": "dev",
-        "stale": "true"
-      },
-      "createdat": "2024-05-08T19:19:27.860021511Z",
-      "modifiedat": "2024-05-08T19:19:27.860021511Z",
-      "usage": "producer",
+    "name": "end1",
+    "epoch": 1,
+    "self": "http://ubuntu:8080/reg-Endpoints/endpoints/e1",
+    "labels": {
+    "stage": "dev",
+    "stale": "true"
+    },
+    "createdat": "2024-05-08T19:19:27.860021511Z",
+    "modifiedat": "2024-05-08T19:19:27.860021511Z",
+    "usage": "producer",
+
+
+    "resourceTypes": {
+        "messages": ""
+    }
 }
