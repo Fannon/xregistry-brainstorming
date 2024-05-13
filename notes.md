@@ -1,5 +1,4 @@
-
-
+```
 /                                              # Access the Registry
 /model                                         # Access the Registry model definition
 /GROUPs                                        # Access a Group Type
@@ -22,14 +21,13 @@
 /groups/<groupTypeId>/<groupInstanceId>/resourceType/<resourceTypeId>/<resourceId>/versions/<versionId>/formats/
 /groups/<groupTypeId>/<groupInstanceId>/resourceType/<resourceTypeId>/<resourceId>/versions/<versionId>/formats/<formatId>
 /groups/<groupTypeId>/<groupInstanceId>/resourceType/<resourceTypeId>/<resourceId>/versions/default/formats/default
+```
 
-
+```
 /groups/endpoints/e1/resourceType/messages/created/versions/v2.json
 /groups/endpoints/e1/resourceType/messages/created/versions/v2/meta
 /groups/endpoints/e1/resourceType/messages/created/versions/v2/formats/endpoint-spec
-
 /groups/endpoints/e1/resourceType/messages/created/versions/default/formats/default
-
 
 /.well-known/xregistry.json
   -> which groups are there
@@ -40,10 +38,9 @@ GET /groups/                - JSON Object, which lists all groups
 GET /groups/index.json      - Alterantively, if web-server doesn't support / index pages
 
 /groups/schemaGroups/S3/resourceType/
-
-
 /groups/schemaGroups/S3/resourceType/schemas/BucketCreated/versions/v1/formats/json-schema
 /groups/schemaGroups/S3/resourceType/schemas/BucketCreated/versions/v1/formats/json-schema/BucketCreated.json
+```
 
 ```http
 GET /groups/schemaGroups/S3/resourceType/schemas/BucketCreated/versions
@@ -78,15 +75,16 @@ GET /groups/schemaGroups/S3/resourceType/schemas/BucketCreated/versions/v1/forma
 }
 ```
 
+```
 GET /schemaGroups
 GET /schemaGroups/S3/schemas/BucketCreated
+```
 
-
+```
 /GROUPs                                        # Access a Group Type
 /GROUPs/gID                                    # Access a Group
 /GROUPs/gID/RESOURCEs                          # Access a Resource Type
 /GROUPs/gID/RESOURCEs/rID                      # Default Version of a Resource
 /GROUPs/gID/RESOURCEs/rID/versions             # Versions of a Resource
 /GROUPs/gID/RESOURCEs/rID/versions/vID         # Access a Version of a Resource
-
-
+```
