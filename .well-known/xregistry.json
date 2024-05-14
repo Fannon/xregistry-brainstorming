@@ -17,6 +17,10 @@
         "/files/endpoints-1.json"
     ],
 
-    "api": "/",
-    "apiCapabilities": ["inline"]
+    "api": {
+        "v1": {
+            "url": "/",
+            "apiCapabilities": ["inline"]
+        }
+    }
 }
