@@ -9,11 +9,14 @@
     "documentation": "https://github.com/duglin/xreg-github",
     "createdat": "2024-05-08T19:19:27.851502385Z",
     "modifiedat": "2024-05-08T19:19:27.860021511Z",
-    "capabilitites" : ["static"],
 
-    "metaModel": "",
+    "metaModel": "/meta/model.json",
 
-    "groups": {
-        "schemaGroups": "/groups/schemaGroups/index.json"
-    }
+    "files": [
+        "/files/endpoints-1.json",
+        "/files/endpoints-1.json"
+    ],
+
+    "api": "/",
+    "apiCapabilities": ["inline"]
 }
