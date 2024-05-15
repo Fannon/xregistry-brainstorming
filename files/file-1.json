@@ -1,0 +1,69 @@
+{
+  "$schema": "https://my-xregistry.com/v1/schema.json",
+  "meta": "/meta/model.json",
+  "specversion": "0.5",
+  "endpoints": {
+    "e1": {
+      "id": "e1",
+      "name": "end1",
+      "epoch": 1,
+      "self": "http://ubuntu:8080/reg-Endpoints/endpoints/e1",
+      "labels": {
+        "stage": "dev",
+        "stale": "true"
+      },
+      "createdat": "2024-05-08T19:19:27.860021511Z",
+      "modifiedat": "2024-05-08T19:19:27.860021511Z",
+      "usage": "producer",
+      "messages": {
+        "created": {
+          "id": "created",
+          "name": "blobCreated",
+          "epoch": 4,
+          "self": "http://ubuntu:8080/reg-Endpoints/endpoints/e1/messages/created",
+          "stickydefaultversion": true,
+          "defaultversionid": "v2",
+          "defaultversionurl": "http://ubuntu:8080/reg-Endpoints/endpoints/e1/messages/created/versions/v2",
+          "createdat": "2024-05-08T19:19:27.860021511Z",
+          "modifiedat": "2024-05-08T19:19:27.860021511Z",
+          "versions": {
+            "v2": {
+              "id": "v2",
+              "name": "blobCreated",
+              "epoch": 4,
+              "self": "http://ubuntu:8080/reg-Endpoints/endpoints/e1/messages/created/versions/v2",
+              "isdefault": true,
+              "createdat": "2024-05-08T19:19:27.860021511Z",
+              "modifiedat": "2024-05-08T19:19:27.860021511Z"
+            }
+          },
+          "versionsurl": "http://ubuntu:8080/reg-Endpoints/endpoints/e1/messages/created/versions"
+        },
+        "deleted": {
+          "id": "deleted",
+          "name": "blobDeleted",
+          "epoch": 3,
+          "self": "http://ubuntu:8080/reg-Endpoints/endpoints/e1/messages/deleted",
+          "defaultversionid": "v1.0",
+          "defaultversionurl": "http://ubuntu:8080/reg-Endpoints/endpoints/e1/messages/deleted/versions/v1.0",
+          "createdat": "2024-05-08T19:19:27.860021511Z",
+          "modifiedat": "2024-05-08T19:19:27.860021511Z",
+          "versions": {
+            "v1.0": {
+              "id": "v1.0",
+              "name": "blobDeleted",
+              "epoch": 3,
+              "self": "http://ubuntu:8080/reg-Endpoints/endpoints/e1/messages/deleted/versions/v1.0",
+              "isdefault": true,
+              "createdat": "2024-05-08T19:19:27.860021511Z",
+              "modifiedat": "2024-05-08T19:19:27.860021511Z"
+            }
+          },
+          "versionsurl": "http://ubuntu:8080/reg-Endpoints/endpoints/e1/messages/deleted/versions"
+        }
+      },
+      "messagesurl": "http://ubuntu:8080/reg-Endpoints/endpoints/e1/messages"
+    }
+  },
+  "endpointsurl": "http://ubuntu:8080/reg-Endpoints/endpoints"
+}

@@ -9,18 +9,23 @@
     "documentation": "https://github.com/duglin/xreg-github",
     "createdat": "2024-05-08T19:19:27.851502385Z",
     "modifiedat": "2024-05-08T19:19:27.860021511Z",
-
     "metaModel": "/meta/model.json",
-
     "files": [
-        "/files/endpoints-1.json",
-        "/files/endpoints-1.json"
+        "/files/file-1.json",
+        "/files/file-1.json"
     ],
-
     "api": {
         "v1": {
-            "url": "/",
-            "apiCapabilities": ["inline"]
+            "url": "/reg-Endpoints/",
+            "apiCapabilities": [
+                "inline"
+            ]
+        },
+        "v2": {
+            "url": "/reg-Endpoints/v2/",
+            "apiCapabilities": [
+                "inline"
+            ]
         }
     }
 }

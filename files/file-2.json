@@ -1,14 +1,6 @@
 {
     "specversion": "0.5",
-    "id": "Endpoints",
-    "name": "Endpoints Registry",
-    "epoch": 1,
-    "self": "http://ubuntu:8080/reg-Endpoints/",
-    "description": "An impl of the endpoints spec",
-    "documentation": "https://github.com/duglin/xreg-github",
-    "createdat": "2024-05-08T19:19:27.851502385Z",
-    "modifiedat": "2024-05-08T19:19:27.860021511Z",
-
+    
     "endpoints": {
       "e2": {
         "id": "e2",
