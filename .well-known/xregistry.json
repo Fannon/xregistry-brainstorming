@@ -10,9 +10,9 @@
     "createdat": "2024-05-08T19:19:27.851502385Z",
     "modifiedat": "2024-05-08T19:19:27.860021511Z",
     "metaModel": "/meta/model.json",
-    "files": [
-        "/files/file-1.json",
-        "/files/file-1.json"
+    "documents": [
+        {"path": "/documents/file-1.json"},
+        {"path": "/documents/file-2.json"}
     ],
     "api": {
         "v1": {
